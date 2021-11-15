@@ -1,16 +1,23 @@
 import React from 'react'
-
-
+import AudioPlayer from "./AudioPlayer"; 
+import track2 from "../tracks/triceps";
+import biceps from "../tracks/biceps";
 function result() {
 
     
     
     return (
-        <div>
+        <div className="container">
             <h1>Arms</h1>
-            <div>
-           
-    </div>
+            <div >
+            <AudioPlayer tracks={track2} />
+            </div>
+            <div >
+            <AudioPlayer tracks={biceps} />
+            </div>
+            <div >
+            <AudioPlayer tracks={biceps} />
+            </div>
         </div>
     )
 }
