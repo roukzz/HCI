@@ -12,9 +12,11 @@ function result() {
             <div >
             <AudioPlayer tracks={track2} />
             </div>
+            <br/>
             <div >
             <AudioPlayer tracks={biceps} />
             </div>
+            <br/>
             <div >
             <AudioPlayer tracks={biceps} />
             </div>
