@@ -50,7 +50,7 @@ export default class Profile extends Component {
           {currentUser.id}
         </p> */}
         <p>
-          <strong>Institution:</strong>{" "}
+          <strong>Gym Name:</strong>{" "}
           {currentUser.institution}
         </p>
         <p>
