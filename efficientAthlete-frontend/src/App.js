@@ -70,7 +70,7 @@ class App extends Component {
             {showModeratorBoard && (
               <li className="nav-item">
                 <Link to={"/mod"} className="nav-link">
-                  Exercies Group
+                  Muscle Groups
                 </Link>
               </li>
             )}
