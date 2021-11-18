@@ -20,7 +20,7 @@ function BoardModerator() {
 	};
 
 	const handleBack = () => {
-
+		history.push("/backExercices");
 	};
 
 	const handleLegs = () => {

@@ -1,11 +1,13 @@
-import fifty from "../assets/50-tobylane.mp3";
+
+
+import barbellDeadlift from "../assets/Barbell-Deadlift(Back).m4a";
 
 
 // All of these artists are at https://pixabay.com/music/search/mood/laid%20back/
 export default [
   {
-    title: "Biceps",
-    audioSrc: fifty,
+    title: "Barbell Deadlift",
+    audioSrc: barbellDeadlift,
     color: "#00aeb0"
   }
 ];

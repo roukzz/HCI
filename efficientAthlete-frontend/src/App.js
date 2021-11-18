@@ -20,6 +20,7 @@ import resetPassword from "./components/reset-password.component";
 import notFound from "./components/notFound.component";
 import successPasswordChange from "./components/successPasswordChange.component";
 import result from "./components/Arms.component"
+import backExercices from "./components/Back.component"
 
 class App extends Component {
   constructor(props) {
@@ -131,6 +132,7 @@ class App extends Component {
             <Route path="/resetPassword/:token" component={resetPassword} />
             <Route path="/success" component={successPasswordChange} />
             <Route path="/Arms" component={result} />
+            <Route path="/backExercices" component={backExercices}/>
             <Route component={notFound}/>
           </Switch>
         </div>
