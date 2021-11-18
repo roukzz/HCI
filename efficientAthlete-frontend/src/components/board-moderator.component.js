@@ -35,7 +35,7 @@ function BoardModerator() {
 
     return (
         <div className="container text-center">
-            <h1>Exercies Set</h1>
+            <h1>Select a muscle group</h1>
 			<div>
 			<br></br>
 				<button className="btn btn-secondary btn-lg" onClick={handleArms}>Arms</button>

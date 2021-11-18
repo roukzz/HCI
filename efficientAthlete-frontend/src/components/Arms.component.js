@@ -8,7 +8,7 @@ function result() {
     
     return (
         <div className="container">
-            <h1>Arms exerices</h1>
+            <h1>Select an Exercice</h1>
             <div >
             <AudioPlayer tracks={dumbbellLateral} />
             </div>

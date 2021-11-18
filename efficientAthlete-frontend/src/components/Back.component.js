@@ -5,7 +5,7 @@ import deadlift from "../tracks/barbellDeadlift";
 function Back() {
     return (
         <div className="container">
-            <h1>Back exerices</h1>
+            <h1>Select an Exercice</h1>
             <div >
             <AudioPlayer tracks={deadlift} />
             </div>
