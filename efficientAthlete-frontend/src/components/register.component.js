@@ -220,7 +220,7 @@ export default class Register extends Component {
                 </div>
 
                 <div className = "form-group">
-                  <label htmlFor= "institution">Gym Name</label>
+                  <label htmlFor= "institution">Weight (Lbs)</label>
                   <Input
                     type="text"
                     className="form-control"
