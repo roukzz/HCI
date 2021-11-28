@@ -32,10 +32,20 @@ function BoardModerator() {
 
 	
 	};
+	
+	const handleShoulders = () => {
+
+		history.push("/shoulderExercices");
+	};
 
     return (
         <div className="container text-center">
             <h1>Select a muscle group</h1>
+			<div>
+			<br></br>
+				<button className="btn btn-secondary btn-lg" onClick={handleShoulders}>Shoulders</button>
+				<br></br>
+			</div>
 			<div>
 			<br></br>
 				<button className="btn btn-secondary btn-lg" onClick={handleArms}>Arms</button>
