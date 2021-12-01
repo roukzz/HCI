@@ -2,7 +2,9 @@
 import React, {useState} from 'react';
 // import {sendFileToFirebase, getFileFromFirebase} from '../services/firebaseStorage.service';
 import {useHistory } from 'react-router-dom';
-// import { getDownloadURL } from "firebase/storage";
+
+
+import picture from "../assets/muscles.jpg";
 
 function BoardModerator() {
     
@@ -39,7 +41,8 @@ function BoardModerator() {
 	};
 
     return (
-        <div className="container text-center">
+        <div >
+			<div className="container text-center"   >
             <h1>Select a muscle group</h1>
 			<div>
 			<br></br>
@@ -69,6 +72,13 @@ function BoardModerator() {
 		
 			
         </div>
+		<br/>
+		<div>
+			<img className="container text-center" src={picture} alt="muscles picture"  ></img>
+		</div>
+		</div>
+		
+		
     )
 }
 
