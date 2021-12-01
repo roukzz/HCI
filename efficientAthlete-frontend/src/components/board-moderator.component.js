@@ -24,12 +24,12 @@ function BoardModerator() {
 	};
 
 	const handleLegs = () => {
-
+		history.push("/legExercises");
 	
 	};
 
 	const handleChest = () => {
-
+		history.push("/chestExercises");
 	
 	};
 	

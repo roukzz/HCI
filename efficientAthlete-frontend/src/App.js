@@ -22,6 +22,8 @@ import successPasswordChange from "./components/successPasswordChange.component"
 import result from "./components/Arms.component"
 import backExercices from "./components/Back.component"
 import shoulderExercises from "./components/shoulders.component"
+import chestExercises from "./components/chest.component"
+import legExercises from "./components/legs.component"
 
 class App extends Component {
   constructor(props) {
@@ -135,6 +137,8 @@ class App extends Component {
             <Route path="/Arms" component={result} />
             <Route path="/backExercices" component={backExercices}/>
             <Route path="/shoulderExercices" component={shoulderExercises}/>
+            <Route path="/chestExercises" component={chestExercises} />
+            <Route path="/legExercises" component={legExercises} />
             <Route component={notFound}/>
           </Switch>
         </div>
