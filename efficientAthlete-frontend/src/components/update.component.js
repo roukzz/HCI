@@ -178,7 +178,7 @@ export default class Update extends Component {
                                 </div>
 
                                 <div className = "form-group">
-                                    <label htmlFor= "institution">Institution</label>
+                                    <label htmlFor= "institution">Weight (Lbs)</label>
                                     <Input
                                         type="text"
                                         className="form-control"

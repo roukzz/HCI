@@ -49,11 +49,11 @@ function BoardModerator() {
 				<button className="btn btn-secondary btn-lg" onClick={handleShoulders}>Shoulders</button>
 				<br></br>
 			</div>
-			<div>
+			{/* <div>
 			<br></br>
 				<button className="btn btn-secondary btn-lg" onClick={handleArms}>Arms</button>
 				<br></br>
-			</div>
+			</div> */}
 			<div>
 			<br></br>
 				<button className="btn btn-secondary btn-lg" onClick={handleChest}>Chest</button>
